@@ -1,0 +1,16 @@
+postgresql:
+  teamId: test
+  volume:
+    size: "1Gi"
+    storageClass: nfs-client
+  numberOfInstances: 2
+  users:
+    postgres:
+    - superuser
+    - createdb
+  databases:
+    postgres: postgres
+  postgresql:
+    version: "13"
+superuser:
+    user: testuser

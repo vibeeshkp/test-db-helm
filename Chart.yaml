@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: 1.0.0
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.2.0
+description: Creates a postgres cluster using the Zalando Postgres operator and local
+  storage
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/zalando-postgres-cluster
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png
+keywords:
+- postgres
+- operator
+- zalando
+maintainers:
+- email: git@angelnu.com
+  name: angelnu
+name: zalando-postgres-cluster
+sources:
+- https://github.com/zalando/postgres-operator
+version: 3.1.0
